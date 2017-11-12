@@ -21,13 +21,13 @@ precedencegroup Additive {
 
 infix operator >>> : Additive
 
-func >>> (lhs: Disposable, rhs: DisposeBag) {
+public func >>> (lhs: Disposable, rhs: DisposeBag) {
   rhs.insert(lhs)
 }
 
 infix operator <-> : Binding
 
-func <-> <T>(property: ControlProperty<T>, variable: Variable<T>) -> Disposable {
+public func <-> <T>(property: ControlProperty<T>, variable: Variable<T>) -> Disposable {
   let bindToUIDisposable = variable.asObservable()
     .bind(to: property)
   let bindToVariable = property
