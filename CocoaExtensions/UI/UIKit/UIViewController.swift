@@ -22,7 +22,7 @@ public extension UIViewController {
   }
   
 }
-  
+
 // MARK: - Push
 public extension UIViewController {
   
@@ -36,7 +36,10 @@ public extension UIViewController {
   }
   
 }
+  
+#endif
 
+#if os(iOS)
 // MARK: - LargeTitleDisplayMode
 public extension UIViewController {
 
