@@ -28,7 +28,7 @@ public extension UIView {
    */
   public func roundCornersWithMask(radius: CGFloat) {
     let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: .allCorners, cornerRadii: CGSize(width: radius, height: radius))
-    let mask = CAShapeLayer()
+    let mask = layer.mask as? CAShapeLayer ?? CAShapeLayer()
     mask.path = path.cgPath
     layer.mask = mask
   }
