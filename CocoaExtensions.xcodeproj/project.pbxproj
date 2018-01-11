@@ -7,17 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9DB9299C1FB7C4A300FDBE21 /* CocoaExtensions_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB9299A1FB7C4A300FDBE21 /* CocoaExtensions_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DB929A51FB7C70900FDBE21 /* Rx+InfixOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */; };
 		9DB929A71FB7C8C600FDBE21 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB929A61FB7C8C600FDBE21 /* RxSwift.framework */; };
 		9DB929A91FB7C8DE00FDBE21 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB929A81FB7C8DE00FDBE21 /* RxCocoa.framework */; };
-		9DB929B31FB7C93800FDBE21 /* CocoaExtensions_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB929B11FB7C93800FDBE21 /* CocoaExtensions_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DB929B71FB7C93B00FDBE21 /* Rx+InfixOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */; };
 		9DB929BA1FB7C95400FDBE21 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB929B81FB7C95400FDBE21 /* RxSwift.framework */; };
 		9DB929BB1FB7C95400FDBE21 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB929B91FB7C95400FDBE21 /* RxCocoa.framework */; };
 		9DB929BE1FB7C96E00FDBE21 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929BD1FB7C96E00FDBE21 /* EdgeInsets.swift */; };
 		9DB929BF1FB7C9CA00FDBE21 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929BD1FB7C96E00FDBE21 /* EdgeInsets.swift */; };
-		9DB929C91FB7C9DE00FDBE21 /* CocoaExtensions_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB929C71FB7C9DE00FDBE21 /* CocoaExtensions_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DB929CD1FB7C9E100FDBE21 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929BD1FB7C96E00FDBE21 /* EdgeInsets.swift */; };
 		9DB929CE1FB7CAB900FDBE21 /* Rx+InfixOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */; };
 		9DB929D11FB7CAC600FDBE21 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB929CF1FB7CAC600FDBE21 /* RxCocoa.framework */; };
@@ -55,20 +52,14 @@
 
 /* Begin PBXFileReference section */
 		9DB929971FB7C4A300FDBE21 /* CocoaExtensions_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaExtensions_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DB9299A1FB7C4A300FDBE21 /* CocoaExtensions_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaExtensions_iOS.h; sourceTree = "<group>"; };
-		9DB9299B1FB7C4A300FDBE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rx+InfixOperators.swift"; sourceTree = "<group>"; };
 		9DB929A61FB7C8C600FDBE21 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		9DB929A81FB7C8DE00FDBE21 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
 		9DB929AF1FB7C93800FDBE21 /* CocoaExtensions_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaExtensions_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DB929B11FB7C93800FDBE21 /* CocoaExtensions_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaExtensions_tvOS.h; sourceTree = "<group>"; };
-		9DB929B21FB7C93800FDBE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DB929B81FB7C95400FDBE21 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		9DB929B91FB7C95400FDBE21 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/tvOS/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
 		9DB929BD1FB7C96E00FDBE21 /* EdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
 		9DB929C51FB7C9DE00FDBE21 /* CocoaExtensions_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaExtensions_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DB929C71FB7C9DE00FDBE21 /* CocoaExtensions_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaExtensions_macOS.h; sourceTree = "<group>"; };
-		9DB929C81FB7C9DE00FDBE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DB929CF1FB7CAC600FDBE21 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
 		9DB929D01FB7CAC600FDBE21 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		9DB929D51FB7CB2600FDBE21 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
@@ -140,8 +131,6 @@
 			children = (
 				9DB929A81FB7C8DE00FDBE21 /* RxCocoa.framework */,
 				9DB929A61FB7C8C600FDBE21 /* RxSwift.framework */,
-				9DB9299A1FB7C4A300FDBE21 /* CocoaExtensions_iOS.h */,
-				9DB9299B1FB7C4A300FDBE21 /* Info.plist */,
 			);
 			path = "CocoaExtensions-iOS";
 			sourceTree = "<group>";
@@ -171,8 +160,6 @@
 			children = (
 				9DB929B91FB7C95400FDBE21 /* RxCocoa.framework */,
 				9DB929B81FB7C95400FDBE21 /* RxSwift.framework */,
-				9DB929B11FB7C93800FDBE21 /* CocoaExtensions_tvOS.h */,
-				9DB929B21FB7C93800FDBE21 /* Info.plist */,
 			);
 			path = "CocoaExtensions-tvOS";
 			sourceTree = "<group>";
@@ -192,8 +179,6 @@
 			children = (
 				9DB929CF1FB7CAC600FDBE21 /* RxCocoa.framework */,
 				9DB929D01FB7CAC600FDBE21 /* RxSwift.framework */,
-				9DB929C71FB7C9DE00FDBE21 /* CocoaExtensions_macOS.h */,
-				9DB929C81FB7C9DE00FDBE21 /* Info.plist */,
 			);
 			path = "CocoaExtensions-macOS";
 			sourceTree = "<group>";
@@ -234,7 +219,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DB9299C1FB7C4A300FDBE21 /* CocoaExtensions_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +226,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DB929B31FB7C93800FDBE21 /* CocoaExtensions_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +233,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DB929C91FB7C9DE00FDBE21 /* CocoaExtensions_macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CocoaExtensions-iOS/Info.plist";
+				INFOPLIST_FILE = "CocoaExtensions/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -520,6 +502,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -582,7 +565,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CocoaExtensions-iOS/Info.plist";
+				INFOPLIST_FILE = "CocoaExtensions/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -591,6 +574,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -660,7 +644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CocoaExtensions-tvOS/Info.plist";
+				INFOPLIST_FILE = "CocoaExtensions/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -734,7 +718,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CocoaExtensions-tvOS/Info.plist";
+				INFOPLIST_FILE = "CocoaExtensions/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -814,7 +798,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CocoaExtensions-macOS/Info.plist";
+				INFOPLIST_FILE = "CocoaExtensions/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -887,7 +871,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CocoaExtensions-macOS/Info.plist";
+				INFOPLIST_FILE = "CocoaExtensions/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
