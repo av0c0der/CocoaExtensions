@@ -14,6 +14,8 @@
 		9D67E21E2007C60200FABF3D /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D67E21C2007C60200FABF3D /* RxSwift.framework */; };
 		9D67E21F2007C60200FABF3D /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D67E21D2007C60200FABF3D /* RxCocoa.framework */; };
 		9D67E2212007C62F00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
+		9D67E2222007D0AC00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
+		9D67E2232007D0DA00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
 		9DB929A51FB7C70900FDBE21 /* Rx+InfixOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */; };
 		9DB929B71FB7C93B00FDBE21 /* Rx+InfixOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */; };
 		9DB929BE1FB7C96E00FDBE21 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929BD1FB7C96E00FDBE21 /* EdgeInsets.swift */; };
@@ -372,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DB929F11FB7CF6000FDBE21 /* Array.swift in Sources */,
+				9D67E2222007D0AC00FABF3D /* UIButton+TouchArea.swift in Sources */,
 				9DB929F51FB7CFF200FDBE21 /* Collection.swift in Sources */,
 				9DB929DE1FB7CBD600FDBE21 /* UIView.swift in Sources */,
 				9DB929E11FB7CC9700FDBE21 /* Image.swift in Sources */,
@@ -390,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D67E2232007D0DA00FABF3D /* UIButton+TouchArea.swift in Sources */,
 				9DB929F21FB7CF6C00FDBE21 /* Array.swift in Sources */,
 				9DB929FE1FB7D17E00FDBE21 /* NSObject+Rx.swift in Sources */,
 				9DB929CE1FB7CAB900FDBE21 /* Rx+InfixOperators.swift in Sources */,
