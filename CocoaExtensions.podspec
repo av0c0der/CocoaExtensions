@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaExtensions'
-  s.version          = '0.1.7'
+  s.version          = '0.1.7.1'
   s.summary          = 'Some useful extensions which I use everyday.'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,7 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
   s.osx.deployment_target = '10.10'
 
   s.source_files = 'CocoaExtensions/**/*'
+  s.frameworks  = 'Foundation'
 
   s.subspec 'Core' do |core|
     core.source_files = 'CocoaExtensions/Core/**/*'
