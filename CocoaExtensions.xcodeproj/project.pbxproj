@@ -45,7 +45,7 @@
 		9DB929FC1FB7D17C00FDBE21 /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929FB1FB7D17C00FDBE21 /* NSObject+Rx.swift */; };
 		9DB929FD1FB7D17C00FDBE21 /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929FB1FB7D17C00FDBE21 /* NSObject+Rx.swift */; };
 		9DB929FE1FB7D17E00FDBE21 /* NSObject+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929FB1FB7D17C00FDBE21 /* NSObject+Rx.swift */; };
-		9DE1F51420AF84FD00955AC7 /* UIButton+SystemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1F51320AF84FD00955AC7 /* UIButton+SystemType.swift */; };
+		9DE1F51920AF894800955AC7 /* UIButton+SystemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1F51820AF894800955AC7 /* UIButton+SystemType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,7 +71,7 @@
 		9DB929F31FB7CFF200FDBE21 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		9DB929F71FB7D04500FDBE21 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		9DB929FB1FB7D17C00FDBE21 /* NSObject+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Rx.swift"; sourceTree = "<group>"; };
-		9DE1F51320AF84FD00955AC7 /* UIButton+SystemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+SystemType.swift"; sourceTree = "<group>"; };
+		9DE1F51820AF894800955AC7 /* UIButton+SystemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+SystemType.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +147,7 @@
 		9DB929A31FB7C70900FDBE21 /* Rx */ = {
 			isa = PBXGroup;
 			children = (
+				9DE1F51720AF894800955AC7 /* UIKit */,
 				9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */,
 				9DB929FB1FB7D17C00FDBE21 /* NSObject+Rx.swift */,
 			);
@@ -172,7 +173,6 @@
 				9DB929E61FB7CE3400FDBE21 /* UIViewController.swift */,
 				9DB929E31FB7CDE500FDBE21 /* UIButton.swift */,
 				9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */,
-				9DE1F51320AF84FD00955AC7 /* UIButton+SystemType.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -192,6 +192,14 @@
 				9DB929F71FB7D04500FDBE21 /* FileManager.swift */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		9DE1F51720AF894800955AC7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9DE1F51820AF894800955AC7 /* UIButton+SystemType.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,13 +354,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE1F51920AF894800955AC7 /* UIButton+SystemType.swift in Sources */,
 				9DB929F01FB7CF6000FDBE21 /* Array.swift in Sources */,
 				9D67E2212007C62F00FABF3D /* UIButton+TouchArea.swift in Sources */,
 				9DB929F41FB7CFF200FDBE21 /* Collection.swift in Sources */,
 				9DB929DD1FB7CBD600FDBE21 /* UIView.swift in Sources */,
 				9DB929E01FB7CC9700FDBE21 /* Image.swift in Sources */,
 				9DB929D71FB7CB3500FDBE21 /* UICollectionView.swift in Sources */,
-				9DE1F51420AF84FD00955AC7 /* UIButton+SystemType.swift in Sources */,
 				9DB929FC1FB7D17C00FDBE21 /* NSObject+Rx.swift in Sources */,
 				9DB929DA1FB7CB7A00FDBE21 /* UITableView.swift in Sources */,
 				9DB929E41FB7CDE500FDBE21 /* UIButton.swift in Sources */,
