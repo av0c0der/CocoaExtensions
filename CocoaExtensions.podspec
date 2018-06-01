@@ -52,4 +52,9 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
     fn.source_files = 'CocoaExtensions/Foundation/**/*'
   end
 
+  s.subspec 'Texture+Rx' do |texture|
+    texture.source_files = 'CocoaExtensions/Texture/Rx/**/*'
+    texture.dependency 'Texture'
+  end
+
 end
