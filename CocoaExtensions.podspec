@@ -57,6 +57,8 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
     texture.dependency 'RxSwift', '~> 4.0'
     texture.dependency 'RxCocoa', '~> 4.0'
     texture.dependency 'Texture'
+    texture.platform = :ios
+    texture.platform = :tvos
   end
 
 end
