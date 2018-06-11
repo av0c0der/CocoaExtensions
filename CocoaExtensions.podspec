@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaExtensions'
-  s.version          = '0.1.8.2'
+  s.version          = '0.1.8.3'
   s.summary          = 'Some useful extensions which I use everyday.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
   s.tvos.deployment_target = '10.1'
   s.osx.deployment_target = '10.10'
 
-  s.source_files = 'CocoaExtensions/**/*.swift'
+  s.default_subspec = 'Core'
   s.frameworks  = 'Foundation'
 
   s.subspec 'Core' do |core|
@@ -54,9 +54,9 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
 
   s.subspec 'Texture+Rx' do |texture|
     texture.source_files = 'CocoaExtensions/Texture/Rx/**/*'
+    texture.dependency 'Texture'
     texture.dependency 'RxSwift', '~> 4.0'
     texture.dependency 'RxCocoa', '~> 4.0'
-    texture.dependency 'Texture'
     texture.platform = :ios
     texture.platform = :tvos
   end
