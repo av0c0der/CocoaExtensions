@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaExtensions'
-  s.version          = '0.1.8.3'
+  s.version          = '0.1.8.4'
   s.summary          = 'Some useful extensions which I use everyday.'
 
 # This description is used to generate tags and improve search results.
@@ -45,15 +45,15 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
   end
 
   s.subspec 'UI' do |ui|
-    ui.source_files = 'CocoaExtensions/UI/**/*'
+    ui.source_files = 'CocoaExtensions/UI/**/*.swift'
   end
 
   s.subspec 'Foundation' do |fn|
-    fn.source_files = 'CocoaExtensions/Foundation/**/*'
+    fn.source_files = 'CocoaExtensions/Foundation/**/*.swift'
   end
 
   s.subspec 'Texture+Rx' do |texture|
-    texture.source_files = 'CocoaExtensions/Texture/Rx/**/*'
+    texture.source_files = 'CocoaExtensions/Texture/Rx/**/*.swift'
     texture.dependency 'Texture'
     texture.dependency 'RxSwift', '~> 4.0'
     texture.dependency 'RxCocoa', '~> 4.0'
