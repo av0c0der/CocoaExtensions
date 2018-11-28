@@ -39,7 +39,7 @@ public extension UIButton {
       return super.point(inside: point, with: event)
     }
     
-    let hitFrame = UIEdgeInsetsInsetRect(bounds, self.touchAreaEdgeInsets)
+    let hitFrame = bounds.inset(by: touchAreaEdgeInsets)
     return hitFrame.contains(point)
   }
   

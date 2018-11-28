@@ -26,17 +26,19 @@ public extension Image {
   
   public func data(for type: ImageType) -> Data? {
     switch type {
-    case .jpeg(let quality): return UIImageJPEGRepresentation(self, quality)
-    case .png: return UIImagePNGRepresentation(self)
+    case .jpeg(let quality):
+      return jpegData(compressionQuality: quality)
+    case .png:
+      return pngData()
     }
   }
   
   public var template: UIImage {
-    return withRenderingMode(UIImageRenderingMode.alwaysTemplate)
+    return withRenderingMode(.alwaysTemplate)
   }
   
   public var original: UIImage {
-    return withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+    return withRenderingMode(.alwaysOriginal)
   }
   
 #endif

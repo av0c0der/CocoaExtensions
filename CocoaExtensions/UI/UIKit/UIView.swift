@@ -18,7 +18,7 @@ public extension UIView {
   }
   
   public func transition(_ duration: Double, animations: (() -> Void)?, completion: ((Bool) -> Void)? = nil) {
-    UIView.transition(with: self, duration: duration, options: UIViewAnimationOptions.transitionCrossDissolve, animations: animations, completion: completion)
+    UIView.transition(with: self, duration: duration, options: .transitionCrossDissolve, animations: animations, completion: completion)
   }
   
   /*

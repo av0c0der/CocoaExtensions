@@ -10,8 +10,6 @@
 		9D67E2212007C62F00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
 		9D67E2222007D0AC00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
 		9D67E2232007D0DA00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
-		9D69708420C0FDC8008D5D77 /* ASControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69708320C0FDC8008D5D77 /* ASControl+Rx.swift */; };
-		9D69708520C0FDCD008D5D77 /* ASControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D69708320C0FDC8008D5D77 /* ASControl+Rx.swift */; };
 		9DB929A51FB7C70900FDBE21 /* Rx+InfixOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */; };
 		9DB929B71FB7C93B00FDBE21 /* Rx+InfixOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */; };
 		9DB929BE1FB7C96E00FDBE21 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929BD1FB7C96E00FDBE21 /* EdgeInsets.swift */; };
@@ -376,7 +374,6 @@
 			files = (
 				9DE1F51920AF894800955AC7 /* UIButton+SystemType.swift in Sources */,
 				9DB929F01FB7CF6000FDBE21 /* Array.swift in Sources */,
-				9D69708420C0FDC8008D5D77 /* ASControl+Rx.swift in Sources */,
 				9D67E2212007C62F00FABF3D /* UIButton+TouchArea.swift in Sources */,
 				9DB929F41FB7CFF200FDBE21 /* Collection.swift in Sources */,
 				9DB929DD1FB7CBD600FDBE21 /* UIView.swift in Sources */,
@@ -401,7 +398,6 @@
 				9DB929F51FB7CFF200FDBE21 /* Collection.swift in Sources */,
 				9DB929DE1FB7CBD600FDBE21 /* UIView.swift in Sources */,
 				9DB929E11FB7CC9700FDBE21 /* Image.swift in Sources */,
-				9D69708520C0FDCD008D5D77 /* ASControl+Rx.swift in Sources */,
 				9DB929D81FB7CB3B00FDBE21 /* UICollectionView.swift in Sources */,
 				9DB929FD1FB7D17C00FDBE21 /* NSObject+Rx.swift in Sources */,
 				9DB929DB1FB7CB7A00FDBE21 /* UITableView.swift in Sources */,
@@ -438,12 +434,14 @@
 		9DB929901FB7C43F00FDBE21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		9DB929911FB7C43F00FDBE21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -522,7 +520,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -597,7 +595,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -678,7 +676,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -751,7 +749,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -835,7 +833,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -908,7 +906,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
