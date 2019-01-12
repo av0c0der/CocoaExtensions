@@ -17,11 +17,15 @@
 public extension EdgeInsets {
   
   public init(_ padding: CGFloat, sidePadding: CGFloat? = nil) {
-    self.init(top: padding, left: sidePadding ?? padding, bottom: padding, right: sidePadding ?? padding)
+    self = EdgeInsets(top: padding, left: sidePadding ?? padding, bottom: padding, right: sidePadding ?? padding)
   }
   
   public init(top: CGFloat? = nil, left: CGFloat? = nil, bottom: CGFloat? = nil, right: CGFloat? = nil, otherSides: CGFloat? = nil) {
-    self.init(top: top ?? otherSides ?? 0, left: left ?? otherSides ?? 0, bottom: bottom ?? otherSides ?? 0, right: right ?? otherSides ?? 0)
+    let rightSide = right ?? otherSides ?? 0
+    let topSide = top ?? otherSides ?? 0
+    let leftSide = left ?? otherSides ?? 0
+    let bottomSide = bottom ?? otherSides ?? 0
+    self = EdgeInsets(top: topSide, left: leftSide, bottom: bottomSide, right: rightSide)
   }
   
 }
