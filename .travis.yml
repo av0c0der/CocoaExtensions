@@ -1,7 +1,7 @@
 language: objective-c
-osx_image: xcode10
+osx_image: xcode10.1
 deploy:
   provider: script
-  script: ./push.sh
+  script: pod trunk push --allow-warnings
   on:
     tags: true
