@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaExtensions'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Some useful extensions which I use everyday.'
 
 # This description is used to generate tags and improve search results.
