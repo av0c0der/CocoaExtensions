@@ -2,6 +2,6 @@ language: objective-c
 osx_image: xcode10
 deploy:
   provider: script
-  script: ./.push.sh
+  script: ./push.sh
   on:
     tags: true
