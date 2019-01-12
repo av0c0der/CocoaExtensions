@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D17DF7C21D7DEA900C5D4AC /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17DF7B21D7DEA900C5D4AC /* NSAttributedString.swift */; };
-		9D67E2212007C62F00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
-		9D67E2222007D0AC00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
-		9D67E2232007D0DA00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
+		9D6BAA3421EA3913004783D9 /* UIScrollView+UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6BAA3321EA3913004783D9 /* UIScrollView+UIRefreshControl.swift */; };
 		9DB929A51FB7C70900FDBE21 /* Rx+InfixOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */; };
 		9DB929B71FB7C93B00FDBE21 /* Rx+InfixOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */; };
 		9DB929BE1FB7C96E00FDBE21 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB929BD1FB7C96E00FDBE21 /* EdgeInsets.swift */; };
@@ -57,8 +55,8 @@
 		9D67E2192007C5EA00FABF3D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
 		9D67E21C2007C60200FABF3D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
 		9D67E21D2007C60200FABF3D /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
-		9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TouchArea.swift"; sourceTree = "<group>"; };
 		9D69708320C0FDC8008D5D77 /* ASControl+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ASControl+Rx.swift"; sourceTree = "<group>"; };
+		9D6BAA3321EA3913004783D9 /* UIScrollView+UIRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+UIRefreshControl.swift"; sourceTree = "<group>"; };
 		9DB929971FB7C4A300FDBE21 /* CocoaExtensions_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaExtensions_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB929A41FB7C70900FDBE21 /* Rx+InfixOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rx+InfixOperators.swift"; sourceTree = "<group>"; };
 		9DB929AF1FB7C93800FDBE21 /* CocoaExtensions_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaExtensions_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,8 +190,8 @@
 				9DB929DC1FB7CBD600FDBE21 /* UIView.swift */,
 				9DB929E61FB7CE3400FDBE21 /* UIViewController.swift */,
 				9DB929E31FB7CDE500FDBE21 /* UIButton.swift */,
-				9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */,
 				9D17DF7B21D7DEA900C5D4AC /* NSAttributedString.swift */,
+				9D6BAA3321EA3913004783D9 /* UIScrollView+UIRefreshControl.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -377,9 +375,9 @@
 			files = (
 				9DE1F51920AF894800955AC7 /* UIButton+SystemType.swift in Sources */,
 				9DB929F01FB7CF6000FDBE21 /* Array.swift in Sources */,
-				9D67E2212007C62F00FABF3D /* UIButton+TouchArea.swift in Sources */,
 				9DB929F41FB7CFF200FDBE21 /* Collection.swift in Sources */,
 				9DB929DD1FB7CBD600FDBE21 /* UIView.swift in Sources */,
+				9D6BAA3421EA3913004783D9 /* UIScrollView+UIRefreshControl.swift in Sources */,
 				9DB929E01FB7CC9700FDBE21 /* Image.swift in Sources */,
 				9DB929D71FB7CB3500FDBE21 /* UICollectionView.swift in Sources */,
 				9D17DF7C21D7DEA900C5D4AC /* NSAttributedString.swift in Sources */,
@@ -398,7 +396,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DB929F11FB7CF6000FDBE21 /* Array.swift in Sources */,
-				9D67E2222007D0AC00FABF3D /* UIButton+TouchArea.swift in Sources */,
 				9DB929F51FB7CFF200FDBE21 /* Collection.swift in Sources */,
 				9DB929DE1FB7CBD600FDBE21 /* UIView.swift in Sources */,
 				9DB929E11FB7CC9700FDBE21 /* Image.swift in Sources */,
@@ -417,7 +414,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D67E2232007D0DA00FABF3D /* UIButton+TouchArea.swift in Sources */,
 				9DB929F21FB7CF6C00FDBE21 /* Array.swift in Sources */,
 				9DB929FE1FB7D17E00FDBE21 /* NSObject+Rx.swift in Sources */,
 				9DB929CE1FB7CAB900FDBE21 /* Rx+InfixOperators.swift in Sources */,
