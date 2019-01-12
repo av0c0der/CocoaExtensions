@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D17DF7C21D7DEA900C5D4AC /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17DF7B21D7DEA900C5D4AC /* NSAttributedString.swift */; };
 		9D67E2212007C62F00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
 		9D67E2222007D0AC00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
 		9D67E2232007D0DA00FABF3D /* UIButton+TouchArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D17DF7B21D7DEA900C5D4AC /* NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
 		9D67E2142007C5CF00FABF3D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		9D67E2152007C5CF00FABF3D /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		9D67E2182007C5EA00FABF3D /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/tvOS/RxCocoa.framework; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				9DB929E61FB7CE3400FDBE21 /* UIViewController.swift */,
 				9DB929E31FB7CDE500FDBE21 /* UIButton.swift */,
 				9D67E2202007C62F00FABF3D /* UIButton+TouchArea.swift */,
+				9D17DF7B21D7DEA900C5D4AC /* NSAttributedString.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				9DB929DD1FB7CBD600FDBE21 /* UIView.swift in Sources */,
 				9DB929E01FB7CC9700FDBE21 /* Image.swift in Sources */,
 				9DB929D71FB7CB3500FDBE21 /* UICollectionView.swift in Sources */,
+				9D17DF7C21D7DEA900C5D4AC /* NSAttributedString.swift in Sources */,
 				9DB929FC1FB7D17C00FDBE21 /* NSObject+Rx.swift in Sources */,
 				9DB929DA1FB7CB7A00FDBE21 /* UITableView.swift in Sources */,
 				9DB929E41FB7CDE500FDBE21 /* UIButton.swift in Sources */,

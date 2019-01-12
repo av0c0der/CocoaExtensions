@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaExtensions'
-  s.version          = '0.1.8.4'
+  s.version          = '0.1.9'
   s.summary          = 'Some useful extensions which I use everyday.'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
 
   s.homepage         = 'https://github.com/Jauzee/CocoaExtensions'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Abdurahim Jauzee' => 'jauzee@mail.ru' }
+  s.author           = { 'Abdurahim Jauzee' => 'a.jauzee@gmail.com' }
   s.source           = { :git => 'https://github.com/Jauzee/CocoaExtensions.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/abdurahimjauzee'
 
