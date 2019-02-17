@@ -26,8 +26,8 @@ public extension UIView {
    
    This way you can achieve better performance than using `.cornerRadius` property on UIView's layer.
    */
-  public func roundCornersWithMask(radius: CGFloat) {
-    let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: .allCorners, cornerRadii: CGSize(width: radius, height: radius))
+  public func roundCornersWithMask(radius: CGFloat, corners: UIRectCorner = .allCorners) {
+    let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
     let mask = layer.mask as? CAShapeLayer ?? CAShapeLayer()
     mask.path = path.cgPath
     layer.mask = mask

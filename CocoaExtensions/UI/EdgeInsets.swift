@@ -13,7 +13,6 @@
   typealias EdgeInsets = UIEdgeInsets
 #endif
 
-
 public extension EdgeInsets {
   
   public init(_ padding: CGFloat, sidePadding: CGFloat? = nil) {

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaExtensions'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'Some useful extensions which I use everyday.'
 
 # This description is used to generate tags and improve search results.
@@ -57,8 +57,6 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
     texture.dependency 'Texture'
     texture.dependency 'RxSwift', '~> 4.0'
     texture.dependency 'RxCocoa', '~> 4.0'
-    texture.platform = :ios
-    texture.platform = :tvos
   end
 
 end

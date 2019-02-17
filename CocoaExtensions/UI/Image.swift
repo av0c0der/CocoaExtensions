@@ -44,4 +44,3 @@ public extension Image {
 #endif
   
 }
-
