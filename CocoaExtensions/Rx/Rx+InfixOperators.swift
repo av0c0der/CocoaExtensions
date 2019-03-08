@@ -37,15 +37,15 @@ public func >>> (lhs: Disposable?, rhs: DisposeBag) {
 // MARK: - Two-way binding
 infix operator <-> : Binding
 
-public func <-> <T>(property: ControlProperty<T>, variable: Variable<T>) -> Disposable {
-  let uiDisposable = variable.asObservable().bind(to: property)
+public func <-> <T>(property: ControlProperty<T>, variable: BehaviorRelay<T>) -> Disposable {
+  let uiDisposable = variable.bind(to: property)
   let bindToVariable = property
     .subscribe(onNext: { n in
-      variable.value = n
+      variable.accept(n)
     }, onCompleted:  {
       uiDisposable.dispose()
     })
-  
+
   return Disposables.create(uiDisposable, bindToVariable)
 }
 
@@ -57,16 +57,15 @@ public func <-- <T>(binder: Binder<T>, observable: Observable<T>) -> Disposable 
   return disposable
 }
 
-public func <-- <T>(binder: Binder<T>, variable: Variable<T>) -> Disposable {
-  let disposable = variable.asObservable().bind(to: binder)
-  return disposable
+public func <-- <T>(binder: Binder<T>, variable: BehaviorRelay<T>) -> Disposable {
+  return variable.bind(to: binder)
 }
 
 // MARK: - Convert to Optional
 prefix operator ?=
 
-public prefix func ?= <T>(variable: Variable<T>) -> Observable<T?> {
-  let optional = variable.asObservable()
+public prefix func ?= <T>(variable: BehaviorRelay<T>) -> Observable<T?> {
+  let optional = variable
     .map { value -> T? in
       return value
     }
