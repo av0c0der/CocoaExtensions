@@ -19,7 +19,7 @@ public extension NSObject {
     closure()
   }
   
-  public var bag: DisposeBag {
+  var bag: DisposeBag {
     get {
       var disposeBag: DisposeBag!
       doLocked {
@@ -43,7 +43,7 @@ public extension NSObject {
 
 public extension Reactive where Base: NSObject {
   
-  public var disposeBag: DisposeBag {
+  var disposeBag: DisposeBag {
     return base.bag
   }
   

@@ -11,11 +11,11 @@ import UIKit
 
 public extension UIScrollView {
 
-  public static var refreshControlTag: Int {
+  static var refreshControlTag: Int {
     return 10001
   }
 
-  public func addRefreshControl(_ refreshControl: UIRefreshControl, tag: Int = UIScrollView.refreshControlTag) {
+  func addRefreshControl(_ refreshControl: UIRefreshControl, tag: Int = UIScrollView.refreshControlTag) {
     if #available(iOS 10.0, *) {
       self.refreshControl = refreshControl
     } else {
@@ -24,7 +24,7 @@ public extension UIScrollView {
     }
   }
 
-  public func removeRefreshControl() {
+  func removeRefreshControl() {
     if #available(iOS 10.0, *) {
       self.refreshControl = nil
     } else {

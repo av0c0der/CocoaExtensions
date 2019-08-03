@@ -12,17 +12,17 @@ import AsyncDisplayKit
 import RxSwift
 import RxCocoa
 
-extension Reactive where Base: ASControlNode {
+public extension Reactive where Base: ASControlNode {
   
   /// Bindable sink for `isEnabled` property.
-  public var isEnabled: Binder<Bool> {
+  var isEnabled: Binder<Bool> {
     return Binder(self.base) { control, value in
       control.isEnabled = value
     }
   }
   
   /// Bindable sink for `isSelected` property.
-  public var isSelected: Binder<Bool> {
+  var isSelected: Binder<Bool> {
     return Binder(self.base) { control, selected in
       control.isSelected = selected
     }

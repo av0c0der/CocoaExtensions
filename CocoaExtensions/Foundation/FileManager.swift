@@ -9,7 +9,7 @@ import Foundation
 
 public extension FileManager {
   
-  public var documentsURL: URL {
+  var documentsURL: URL {
     return urls(for: FileManager.SearchPathDirectory.documentDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
   }
   

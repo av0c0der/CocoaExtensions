@@ -10,7 +10,7 @@
 import UIKit
 import RxSwift
 
-extension UIButton {
+public extension UIButton {
   
   private func setAlpha(_ alpha: CGFloat) {
     UIView.animate(withDuration: 0.25, delay: 0, options: .beginFromCurrentState, animations: {
@@ -27,8 +27,8 @@ extension UIButton {
         self?.setAlpha(minAlpha)
       })
       .disposed(by: bag)
-    
-    let cancelObservables = [#selector(UIView.touchesEnded(_:with:)), #selector(UIView.touchesCancelled(_:with:))].map { rx.methodInvoked($0) }
+
+    let cancelObservables = [#selector(UIView.touchesEnded), #selector(UIView.touchesCancelled)].map { rx.methodInvoked($0) }
     Observable.merge(cancelObservables)
       .subscribe(onNext: { [weak self] _ in
         self?.setAlpha(1)

@@ -13,11 +13,11 @@ import UIKit
 
 public extension UIViewController {
   
-  public var bar: UINavigationBar? {
+  var bar: UINavigationBar? {
     return navigationController?.navigationBar
   }
   
-  public var barHeight: CGFloat {
+  var barHeight: CGFloat {
     return bar?.bounds.height ?? 0
   }
   
@@ -27,7 +27,7 @@ public extension UIViewController {
 public extension UIViewController {
   
   /// Push new view controller with a horizontal slide transition. Has no effect if the view controller is already in the stack.
-  public func push(_ vc: UIViewController, animated: Bool = true) {
+  func push(_ vc: UIViewController, animated: Bool = true) {
     if let navi = self as? UINavigationController {
       navi.pushViewController(vc, animated: animated)
     } else {
@@ -45,12 +45,12 @@ public extension UIViewController {
 
   /// Mirrors UIKit enumeration.
   /// Was declared to avoid multiple iOS version checks.
-  public enum LargeTitleDisplayMode: Int {
+  enum LargeTitleDisplayMode: Int {
     case automatic, always, never
   }
   
   /// When UINavigationBar.prefersLargeTitles=YES, this property controls when the larger out-of-line title is displayed. If prefersLargeTitles=NO, this property has no effect. The default value is Automatic.
-  public var largeTitleDisplayMode: LargeTitleDisplayMode {
+  var largeTitleDisplayMode: LargeTitleDisplayMode {
     get {
       var raw = 2
       if #available(iOS 11.0, *) {
@@ -67,7 +67,7 @@ public extension UIViewController {
   }
   
   /// When set to YES, the navigation bar will use a larger out-of-line title view when requested by the current navigation item. To specify when the large out-of-line title view appears, see UINavigationItem.largeTitleDisplayMode. Defaults to NO.
-  public var prefersLargeTitles: Bool {
+  var prefersLargeTitles: Bool {
     get {
       if #available(iOS 11, *) {
         if let navi = self as? UINavigationController {

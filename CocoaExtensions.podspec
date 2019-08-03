@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaExtensions'
-  s.version          = '0.2.4'
+  s.version          = '0.3'
   s.summary          = 'Some useful extensions which I use everyday.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-There are so many code I'm repeating everyday. So I decided to put some of this code to the repo so I can plug it in my projects. Maybe you find it helpful too.
+There are so many code I'm repeating everyday. So I decided to put some of this code to the repo so I can plug it in my projects. Maybe you'll find it helpful too.
                        DESC
 
   s.homepage         = 'https://github.com/Jauzee/CocoaExtensions'
@@ -26,6 +26,7 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
   s.author           = { 'Abdurahim Jauzee' => 'a.jauzee@gmail.com' }
   s.source           = { :git => 'https://github.com/Jauzee/CocoaExtensions.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/abdurahimjauzee'
+  s.swift_version = '5.0'
 
   s.ios.deployment_target = '8.0'  
   s.tvos.deployment_target = '10.1'
@@ -39,8 +40,8 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
   end
 
   s.subspec 'Rx' do |rx|
-    rx.dependency 'RxSwift', '~> 4.0'
-    rx.dependency 'RxCocoa', '~> 4.0'
+    rx.dependency 'RxSwift', '~> 5.0'
+    rx.dependency 'RxCocoa', '~> 5.0'
     rx.source_files = 'CocoaExtensions/Rx/**/*'
   end
 
@@ -55,8 +56,8 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
   s.subspec 'Texture+Rx' do |texture|
     texture.source_files = 'CocoaExtensions/Texture/Rx/**/*.swift'
     texture.dependency 'Texture'
-    texture.dependency 'RxSwift', '~> 4.0'
-    texture.dependency 'RxCocoa', '~> 4.0'
+    texture.dependency 'RxSwift', '~> 5.0'
+    texture.dependency 'RxCocoa', '~> 5.0'
   end
 
 end

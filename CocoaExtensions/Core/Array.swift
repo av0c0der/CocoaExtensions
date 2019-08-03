@@ -9,7 +9,7 @@ import Foundation
 
 public extension Array {
   
-  public var random: Element {
+  var random: Element {
     let index = Int(arc4random_uniform(UInt32(count-1)))
     return self[index]
   }

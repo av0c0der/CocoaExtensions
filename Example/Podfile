@@ -1,0 +1,24 @@
+use_frameworks!
+
+def cocoa_extensions
+    pod 'CocoaExtensions/Core', :path => '../'
+    pod 'CocoaExtensions/Foundation', :path => '../'
+    pod 'CocoaExtensions/Rx', :path => '../'
+    pod 'CocoaExtensions/UI', :path => '../'
+end
+
+target 'CocoaExtensions-iOS' do
+    platform :ios, '8.0'
+    cocoa_extensions
+    pod 'CocoaExtensions/Texture+Rx', :path => '../'
+end
+
+target 'CocoaExtensions-tvOS' do
+    platform :tvos, '10.1'
+    cocoa_extensions
+end
+
+target 'CocoaExtensions-macOS' do
+    platform :osx, '10.10'
+    cocoa_extensions
+end

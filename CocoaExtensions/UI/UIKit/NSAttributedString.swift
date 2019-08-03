@@ -13,7 +13,7 @@ import AppKit
 
 public extension NSAttributedString {
 
-  public var mutable: NSMutableAttributedString {
+  var mutable: NSMutableAttributedString {
     return mutableCopy() as! NSMutableAttributedString
   }
 

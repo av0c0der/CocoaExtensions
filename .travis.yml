@@ -5,3 +5,9 @@ deploy:
   script: pod trunk push --allow-warnings
   on:
     tags: true
+
+# from CocoaPods template
+# osx_image: xcode10.1
+# language: objective-c
+# script:
+# - pod lib lint

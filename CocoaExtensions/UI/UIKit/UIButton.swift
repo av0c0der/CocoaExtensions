@@ -13,7 +13,7 @@ import UIKit
 
 public extension UIButton {
   
-  public var imageViewContentMode: UIView.ContentMode {
+  var imageViewContentMode: UIView.ContentMode {
     get {
       return imageView?.contentMode ?? .scaleAspectFit
     } set {

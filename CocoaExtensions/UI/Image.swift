@@ -19,12 +19,12 @@ public extension Image {
   
 #else
   
-  public enum ImageType {
+  enum ImageType {
     case jpeg(quality: CGFloat)
     case png
   }
   
-  public func data(for type: ImageType) -> Data? {
+  func data(for type: ImageType) -> Data? {
     switch type {
     case .jpeg(let quality):
       return jpegData(compressionQuality: quality)
@@ -33,11 +33,11 @@ public extension Image {
     }
   }
   
-  public var template: UIImage {
+  var template: UIImage {
     return withRenderingMode(.alwaysTemplate)
   }
   
-  public var original: UIImage {
+  var original: UIImage {
     return withRenderingMode(.alwaysOriginal)
   }
   
