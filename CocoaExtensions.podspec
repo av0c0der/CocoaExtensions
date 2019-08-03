@@ -53,11 +53,4 @@ There are so many code I'm repeating everyday. So I decided to put some of this 
     fn.source_files = 'CocoaExtensions/Foundation/**/*.swift'
   end
 
-  s.subspec 'Texture+Rx' do |texture|
-    texture.source_files = 'CocoaExtensions/Texture/Rx/**/*.swift'
-    texture.dependency 'Texture'
-    texture.dependency 'RxSwift', '~> 5.0'
-    texture.dependency 'RxCocoa', '~> 5.0'
-  end
-
 end
